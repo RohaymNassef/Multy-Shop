@@ -1,0 +1,9 @@
+.vendor div{
+    display: flex;
+    gap: 23px;
+}
+@media screen and (max-width:800px){
+    .vendor div{
+        flex-direction: column;
+    }
+}

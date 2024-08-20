@@ -1,0 +1,51 @@
+.watch-contact{
+    width: 22%;
+    background-color: #fff;
+    text-align: center;
+}
+.watch-contact>*{
+    margin-bottom: 10px;
+}
+.watch-contact img{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.watch-contact h2{
+    font-size: 25px;
+}
+.watch-contact h3{
+    color: var(--main-color);
+}
+.watchlist{
+display: flex;
+justify-content: center;
+gap: 10px;
+flex-wrap: wrap;
+align-items: center;
+}
+.btn-watch{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.btn-w{
+    font-size: 25px;
+    color: var(--main-color);
+    cursor: pointer;
+}
+.btn-x{
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+}
+.Not-find{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
+@media screen and (max-width:800px){
+    .watch-contact{
+        width: 100%;
+    }
+}

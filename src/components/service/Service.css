@@ -1,0 +1,35 @@
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.service{
+    background-color: #fff;
+    padding: 30px;
+}
+.service-icon{
+    font-size: 40px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+.service div h3{
+    font-size: 22px;
+
+}
+@media screen and (max-width : 800px){
+    .services {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .service{
+        width: 90%;
+    }
+    .service div{
+        justify-content: center;
+    }
+}

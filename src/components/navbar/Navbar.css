@@ -1,0 +1,149 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    
+}
+.navbar-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #3d464d;
+    
+}
+/* body{
+    overflow-x: hidden;
+} */
+.links{
+    position: relative;
+}
+.link{
+    position: absolute;
+    top: 44px;
+    left: -75px;
+    background-color: #CCC;
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.link a{
+    color: #000 !important;
+}
+.link a:hover{
+    color: var(--main-color) !important;
+}
+.center-navbar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+.left-navbar span{
+    color: var(--main-color);
+}
+.center-navbar ul a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.5s;
+}
+.center-navbar ul a:hover{
+    color: #ffd333;
+}
+.right-navbar{
+    display: flex;
+    gap: 30px;
+}
+.right-navbar span{
+    color: #fff;
+}
+.nav-icon{
+    color: #ffd333;
+    font-size: 20px;
+}
+.pages{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.arwo{
+    color: #fff;
+}
+.res-icon{
+    font-size: 25px;
+    color: var(--main-color);
+}
+.moon{
+    font-size: 20px;
+    cursor: pointer;
+    color:#fff;
+}
+.sun{
+    font-size: 20px;
+    cursor: pointer;
+    color:#fff;
+    animation: sun infinite 2s;
+}
+.menuu{
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+    margin-right: 10px;
+    
+}
+@keyframes sun {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@media screen and (max-width:800px) {
+    nav{
+        position: relative;
+    }
+    .center-navbar ul {
+        position: absolute;
+        flex-direction: column;
+        background-color: var(--main-color);
+        width:93%;
+        top: 67px;
+        right:-850px;
+        transition: 1s;
+        padding: 20px;
+        gap: 20px;
+        
+    }
+    
+    .ul.open{
+        right: 0;
+    }
+    .close{
+        right:-850px;
+    }
+    .menuu{
+        display: flex;
+    }
+    /* .navbar{
+        overflow: hidden;
+        
+    } */
+    .center-navbar ul a:hover{
+        color: #000;
+    }
+    .navbar-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10px;
+        background-color: #3d464d;
+        
+    }
+}

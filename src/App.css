@@ -1,0 +1,64 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  /* overflow-x: hidden; */
+  /* overflow-y: hidden; */
+}
+
+:root{
+  --main-color:#ffd333;
+}
+body{
+  background-color: #eee;
+  /* overflow-x: hidden; */
+}
+
+.container{
+  width: 90%;
+  margin: 67px auto;
+  padding-top: 100px;
+}
+.title{
+  text-align: center;
+  color: var(--main-color);
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+.slick-prev , .slick-next{
+  display: none !important;
+}
+.app-dark body{
+  background-color: #000;
+  color: #fff;
+}
+.app-dark{
+  background-color: #000;
+  color: #fff;
+}
+.app-dark .categorie{
+  background-color: #222 !important;
+}
+.app-dark .service{
+  background-color: #222 !important;
+}
+.app-dark .product{
+  background-color: #222 !important;
+}
+.app-dark .about h2 span{
+  color: #fff;
+}
+.app-dark .api{
+  background-color: #222;
+}
+.app-dark .info-image{
+  background-color: #222;
+}
+.app-dark .product-details{
+  background-color: #222;
+}
+.app-dark .watch-contact{
+  background-color: #222;
+}
+.app-dark .cart-product , .totle{
+  background-color: #222 !important;
+}

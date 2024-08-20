@@ -1,0 +1,55 @@
+.fake .title p{
+    font-size: 18px;
+    color: #777;
+    width: 50%;
+    margin: 10px auto;
+    line-height: 1.5;
+
+}
+.apis{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.api{
+    width: 22%;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.api img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.api h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.api > *{
+    margin-bottom: 20px;
+}
+.api div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.api-icon{
+    color: #fff;
+    font-size: 22px;
+    background-color: var(--main-color);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.api-icon:hover{
+    color: var(--main-color);
+    background-color: #ddd;
+}
+@media screen and (max-width:800px){
+    .api{
+     width: 100%;
+    }  
+}

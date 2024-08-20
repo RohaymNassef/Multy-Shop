@@ -1,0 +1,28 @@
+.contact input{
+    display: block;
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    
+}
+.contact textarea{
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: block;
+    outline: none;
+}
+.contact button{
+    padding: 10px;
+    border: none;
+    background-color: var(--main-color);
+    font-size: 18px;
+    width: 200px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.contact button:hover{
+    background-color: rgb(208, 208, 11);
+}
